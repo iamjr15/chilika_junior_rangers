@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Chilika Junior Rangers</title>
+</head>
+
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">CHILIKA JUNIOR RANGERS</h2>
+            <div class="toggle"></div>
+        </header>
+        <video src="cjr-small.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+            <h2>PROTECTING INDIA'S </h2>
+            <h3>LARGEST BRACKISH WATER LAKE</h3>
+            <p>scroll down to learn more
+            </p>
+            <a href="#">learn more</a>
+        </div>
+
+
+
+        </ul>
+
+        <div class="social">
+            <a href="https://www.instagram.com/chilikajuniorangers/"><img src="https://img.icons8.com/windows/70/000000/instagram.png" /></a>
+            <a href="https://www.linkedin.com/company/chilika-junior-rangers/"><img src="https://img.icons8.com/ios-filled/60/000000/linkedin.png" /></a>
+        </div>
+
+
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Our Mission</a></li>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Our Partners</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+
+
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+        const showcase = document.querySelector('.showcase');
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
+            showcase.classList.toggle('active');
+        })
+    </script>
+</body>
+
+</html>
